@@ -143,8 +143,12 @@ const [showDenuncia, setShowDenuncia] = useState(false);
         )}
    {/* ===== BOTÓN NUEVA DENUNCIA ===== */}     
 <button
+
   onClick={() => setShowDenuncia(true)}
   style={{ marginLeft: 10 }}
+  className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 rounded-lg shadow transition"
+    
+    
 >
   Nueva Denuncia
 </button>
